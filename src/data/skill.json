@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Javascript",
+    "logo": "",
+    "tags": ["Frontend", "Backend"],
+    "description": "",
+    "level": "~intermediate"
+  },
+  {
+    "name": "React & Redux",
+    "logo": "",
+    "tags": ["Frontend"],
+    "description": "",
+    "level": "~intermediate"
+  },
+  {
+    "name": "Python Django",
+    "logo": "",
+    "tags": ["Backend"],
+    "description": "",
+    "level": "Basic"
+  },
+  {
+    "name": "Ruby on Rails",
+    "logo": "",
+    "tags": ["Backend"],
+    "description": "",
+    "level": "Basic"
+  },
+  {
+    "name": "Golang",
+    "logo": "",
+    "tags": ["Backend"],
+    "description": "",
+    "level": "Noob"
+  }
+]
