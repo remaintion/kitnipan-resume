@@ -52,7 +52,7 @@ const Life = ({ className }) => {
           <b>For Work:</b>
           <img
             src={formalEmail}
-            height="40"
+            height="30"
             alt="devloper nodejs react redux email"
           />
         </div>
@@ -60,7 +60,7 @@ const Life = ({ className }) => {
           <b>For Spam:</b>{" "}
           <img
             src={informalEmail}
-            height="40"
+            height="30"
             alt="devloper nodejs react redux email golang django python express"
           />
         </div>
