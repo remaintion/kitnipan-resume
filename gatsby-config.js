@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `KITINPAN DERMTORANIN`,
-    description: `MY USELESS RESUME HOPE I"LL FIND THIS IN GOOGLE TOO`,
+    description: `My name is Kitnipan Dermtoranin I am Full Stack Developer and this is the prove show to I can make website even it is very simple and useless BUT it's very fast seo friendly I hope I'll found this on google very sooooooooooooooooooooooooooooooooooon!`,
     author: `@kitnipan`,
   },
   plugins: [
@@ -13,6 +13,7 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    `gatsby-plugin-sass`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

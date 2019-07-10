@@ -1,0 +1,151 @@
+.theme--react270 {
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: blue;
+  }
+  @keyframes marquee {
+    0% {
+      left: 100vw;
+    }
+    100% {
+      left: -150vw;
+    }
+  }
+  h5 {
+    position: absolute;
+    font-size: 30px;
+    color: purple;
+    animation: marquee 30s infinite;
+    width: 200vw;
+    top: 50px;
+  }
+
+  ol {
+    color: blue;
+  }
+  li {
+    color: purple;
+  }
+  p {
+    color: purple;
+  }
+  span,
+  sub {
+    color: red;
+  }
+  b {
+    color: mediumaquamarine;
+  }
+  h2 {
+    display: inline-block;
+  }
+
+  @keyframes showing {
+    0% {
+      top: 50vh;
+      bottom: 50vh;
+      left: 50vw;
+      right: 50vw;
+      height: 0px;
+      width: 0px;
+      overflow: hidden;
+    }
+    100% {
+      top: 0px;
+      bottom: 0px;
+      left: 0px;
+      right: 0px;
+      width: 100vw;
+    }
+  }
+  @keyframes hiding {
+    0% {
+      top: 0px;
+      bottom: 0px;
+      left: 0px;
+      right: 0px;
+      width: 100vw;
+      visibility: visible;
+      opacity: 1;
+    }
+    100% {
+      top: 50vh;
+      bottom: 50vh;
+      left: 50vw;
+      right: 50vw;
+      height: 0px;
+      width: 0px;
+      overflow: hidden;
+      opacity: 0;
+    }
+  }
+  .exp--section {
+    .workplace {
+      .workplace--body {
+        background: yellow;
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid purple;
+        text-align: center;
+        font-size: 18px;
+        ul:nth-child(3) {
+          display: flex;
+          justify-content: space-around;
+          flex-wrap: wrap;
+          li {
+            font-size: 14px;
+            text-align: center;
+            flex: 1 1 30%;
+            padding: 5px;
+            border-radius: 50px;
+            margin: 0px 2px 4px 2px;
+            border: 1px dashed red;
+            background: purple;
+            color: yellow;
+            text-transform: uppercase;
+          }
+        }
+        ul {
+          padding: 0px;
+          li {
+            padding-bottom: 10px;
+            text-align: left;
+            list-style: none;
+          }
+        }
+        p {
+          font-size: 20px;
+          padding-top: 20px;
+          position: relative;
+          font-weight: 800;
+        }
+      }
+      .right {
+        position: absolute;
+        right: 0px;
+        top: -20px;
+      }
+      .workplace--body.inactive {
+        overflow: hidden;
+        visibility: hidden;
+        opacity: 0;
+        position: fixed;
+        animation: hiding 0.5s;
+      }
+      .workplace--body.active {
+        overflow: scroll;
+        visibility: visible;
+        opacity: 1;
+        position: fixed;
+        height: 100%;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        animation: showing 0.5s;
+      }
+    }
+  }
+}
