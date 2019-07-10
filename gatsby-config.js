@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `react ruby django golang express nodjs js`,
-    description: `My name is Kitnipan Dermtoranin I am Full Stack Developer and this is the prove show to I can make website even it is very simple and useless BUT it's very fast!(MAYBE) friendly I hope I'll found this on google ! ps. I code react redux ruby rails python django golang express nodjs javascript and I like to developed`,
+    description: `My name is Kitnipan Dermtoranin I am Full Stack Developer I code react redux ruby rails python django golang express nodjs javascript and I like to developed`,
     author: `@kitnipan`,
     siteUrl: "https://kitnipan.netlify.com",
   },
