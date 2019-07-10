@@ -1,6 +1,8 @@
 import React, { useState } from "react"
 import moment from "moment"
 import data from "../../data/profile.json"
+import formalEmail from "../../images/emails/formal.png"
+import informalEmail from "../../images/emails/informal.png"
 
 const Life = ({ className }) => {
   const [aged, setAged] = useState(
@@ -42,10 +44,20 @@ const Life = ({ className }) => {
       <h5>{coolArea}</h5>
       <div className="email">
         <div>
-          <b>For Work:</b> {email.formal}
+          <b>For Work:</b>
+          <img
+            src={formalEmail}
+            height="40"
+            alt="devloper nodejs react redux email"
+          />
         </div>
         <div>
-          <b>For Spam:</b> {email.informal}
+          <b>For Spam:</b>{" "}
+          <img
+            src={informalEmail}
+            height="40"
+            alt="devloper nodejs react redux email golang django python express"
+          />
         </div>
       </div>
       <p>Aged: {aged}</p>
