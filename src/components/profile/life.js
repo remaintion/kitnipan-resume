@@ -40,7 +40,12 @@ const Life = ({ className }) => {
   const { fullname, coolArea, email } = data
   return (
     <div className={className}>
-      <h1>{fullname}</h1>
+      <h1>
+        {fullname}{" "}
+        <span style={{ display: "none" }}>
+          react, ruby, django, golang, express, nodjs, js
+        </span>
+      </h1>
       <h5>{coolArea}</h5>
       <div className="email">
         <div>
