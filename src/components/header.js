@@ -16,7 +16,7 @@ const Header = ({ siteTitle }) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-      <h2 style={{ margin: 0 }}>
+      <h1 style={{ margin: 0 }}>
         <Link
           to="/"
           style={{
@@ -25,8 +25,11 @@ const Header = ({ siteTitle }) => (
           }}
         >
           MY RESUME
+          <span style={{ display: "none" }}>
+            react, ruby, django, golang, express, nodjs, js
+          </span>
         </Link>
-      </h2>
+      </h1>
     </div>
   </header>
 )
