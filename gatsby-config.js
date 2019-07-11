@@ -3,7 +3,7 @@ module.exports = {
     title: `react ruby django golang express nodjs js`,
     description: `My name is Kitnipan Dermtoranin I am Full Stack Developer I code react redux ruby rails python django golang express nodjs javascript and I like to developed`,
     author: `@kitnipan`,
-    siteUrl: "https://kitnipan.netlify.com",
+    siteUrl: "https://kitnipan.life",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
